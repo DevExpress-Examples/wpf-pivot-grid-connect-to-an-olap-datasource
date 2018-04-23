@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfOlapRetrieveFieldsExample", "WpfOlapRetrieveFieldsExample\WpfOlapRetrieveFieldsExample.vbproj", "{6CA8D3BE-E9F6-4941-9556-6D2E8179192C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CA8D3BE-E9F6-4941-9556-6D2E8179192C}.Debug|x86.ActiveCfg = Debug|x86
+		{6CA8D3BE-E9F6-4941-9556-6D2E8179192C}.Debug|x86.Build.0 = Debug|x86
+		{6CA8D3BE-E9F6-4941-9556-6D2E8179192C}.Release|x86.ActiveCfg = Release|x86
+		{6CA8D3BE-E9F6-4941-9556-6D2E8179192C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
