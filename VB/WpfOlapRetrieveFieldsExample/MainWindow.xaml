@@ -1,4 +1,4 @@
-﻿<Window x:Class="WpfOlapRetrieveFieldsExample.MainWindow"
+<Window x:Class="WpfOlapRetrieveFieldsExample.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
         Title="DevExpress WPF Application" Height="500" Width="800" xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core">
