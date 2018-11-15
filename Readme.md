@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml.cs](./CS/WpfOlapRetrieveFieldsExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfOlapRetrieveFieldsExample/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to connect a Pivot Grid to an OLAP datasource
 
 
