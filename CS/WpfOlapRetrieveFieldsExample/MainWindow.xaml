@@ -1,15 +1,21 @@
-<Window x:Class="WpfOlapRetrieveFieldsExample.MainWindow"
+﻿<Window xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-        Title="DevExpress WPF Application" Height="500" Width="800" xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"  x:Class="WpfOlapRetrieveFieldsExample.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <dx:PivotOlapDataSource x:Key="PivotOlapDataSource" Catalog="Adventure Works DW Standard Edition" ConnectionTimeout="60" Cube="Adventure Works" LocaleIdentifier="1033" Password="{x:Null}" Provider="MSOLAP" QueryTimeout="30" Server="http://demos.devexpress.com/Services/OLAP/msmdpump.dll" UserId="{x:Null}">
+        <dx:PivotOlapDataSource x:Key="PivotOlapDataSource" Cube="Adventure Works" Catalog="Adventure Works DW Standard Edition" ConnectionTimeout="60" LocaleIdentifier="1033" Password="{x:Null}" Provider="MSOLAP" QueryTimeout="30" Server="http://demos.devexpress.com/Services/OLAP/msmdpump.dll" UserId="{x:Null}">
             <dx:DesignDataManager.DesignData>
-                <dx:DesignDataSettings RowCount="5" />
+                <dx:DesignDataSettings RowCount="5"/>
             </dx:DesignDataManager.DesignData>
         </dx:PivotOlapDataSource>
     </Window.Resources>
     <Grid>
-        <dxpg:PivotGridControl Name="pivotGridControl1" />
+        <dxpg:PivotGridControl Name="pivotGridControl1" RowTreeMinWidth="170"
+                               OlapDataProvider="Adomd" 
+                               OlapConnectionString="{Binding ConnectionString, Source={StaticResource PivotOlapDataSource}}" />
     </Grid>
 </Window>

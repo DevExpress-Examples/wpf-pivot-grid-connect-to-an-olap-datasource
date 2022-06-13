@@ -1,26 +1,14 @@
 ﻿using System.Windows;
 using DevExpress.Xpf.PivotGrid;
 
-namespace WpfOlapRetrieveFieldsExample
-{
+namespace WpfOlapRetrieveFieldsExample {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
+    public partial class MainWindow : Window {
+        public MainWindow() {
             InitializeComponent();
-            
-            // Specifies the Olap connection settings.
-            pivotGridControl1.OlapDataProvider = OlapDataProvider.Adomd;
-            pivotGridControl1.OlapConnectionString = 
-                @"Provider=MSOLAP;
-                Data Source=http://demos.devexpress.com/Services/OLAP/msmdpump.dll; 
-                Initial catalog=Adventure Works DW Standard Edition;
-                Cube name=Adventure Works;
-                Query Timeout=100;";
-            
+
             // Retrieves fields.
             pivotGridControl1.RetrieveFields(FieldArea.ColumnArea, false);
 
