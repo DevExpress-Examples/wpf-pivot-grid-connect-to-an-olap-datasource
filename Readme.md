@@ -9,7 +9,8 @@ The [Pivot Grid](7228) can display data from the the OLAP server (Microsoft Anal
 
 To bind the Pivot Grid control to an OLAP cube, follow the steps below.
 
-1. Specify connection settings to the server. You can do it in the [Items Source Wizard](https://docs.devexpress.com/WPF/8015/controls-and-libraries/pivot-grid/binding-to-data/olap-data-source/binding-to-olap-data-sources#bind-to-an-olap-cube-at-design-time). The following code shows the resulted XML.
+1. Specify connection settings to the server. You can do it in the [Items Source Wizard](https://docs.devexpress.com/WPF/8015/controls-and-libraries/pivot-grid/binding-to-data/olap-data-source/binding-to-olap-data-sources#bind-to-an-olap-cube-at-design-time). The following code shows the resulting XML:
+
 
    ```xaml
    <!-- xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" -->
@@ -35,7 +36,8 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
    ```
 
 
-1. Create fields for all the measures and dimension in the bound OLAP cube, and moves these fields to the specified area, making them hidden. To do it, use the [PivotGridControl.RetrieveFields](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.RetrieveFields.overloads) method overload with the _visible_ parameter and set the field's visibility to `false`. The `RetrieveFields` method generates [DataSourceColumnBinding](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.DataSourceColumnBinding?v=22.1) objects for each Pivot Grid field in OLAP, Server, and Optimized [modes](https://docs.devexpress.com/CoreLibraries/403802/devexpress-pivot-grid-core-library/pivot-grid-modes?v=22.1).
+1. Create fields for all the measures and dimension in the bound OLAP cube, and move these fields to the specified area to make them hidden. To do it, use the [PivotGridControl.RetrieveFields](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.RetrieveFields.overloads) method overload with the _visible_ parameter and set the field's visibility to `false`. The `RetrieveFields` method generates [DataSourceColumnBinding](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.DataSourceColumnBinding?v=22.1) objects for each Pivot Grid field in OLAP, Server, and Optimized [modes](https://docs.devexpress.com/CoreLibraries/403802/devexpress-pivot-grid-core-library/pivot-grid-modes?v=22.1).
+
 
    ```cs
    public MainWindow() {
@@ -46,7 +48,8 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
    }
    ```
 
-1. Place some of the created fields within corresponding Pivot Grid Control areas and set their [PivotGridField.Visible](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.Visible) property to `true`.
+1. Place the created fields within corresponding Pivot Grid Control areas and set their [PivotGridField.Visible](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridField.Visible) property to `true`.
+
 
       ```cs
    public MainWindow() {
