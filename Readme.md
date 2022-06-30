@@ -6,7 +6,7 @@
 
 # Pivot Grid for WPF - How to Connect a Pivot Grid to an OLAP Data Source
 
-The [Pivot Grid](7228) can display data from the the OLAP server (Microsoft Analysis Services). This example shows how to specify connection settings to the server and create fields that relate to specific measures and dimensions of the cube.
+The [Pivot Grid](https://docs.devexpress.com/WPF/7228/controls-and-libraries/pivot-grid) can display data from the the OLAP server (Microsoft Analysis Services). This example shows how to specify connection settings to the server and create fields that relate to specific measures and dimensions of the cube.
 
 To bind the Pivot Grid control to an OLAP cube, follow the steps below.
 
