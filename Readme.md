@@ -69,7 +69,7 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
 
    Use the invoked [Customization Form](https://docs.devexpress.com/WPF/11751/controls-and-libraries/pivot-grid/layout/customization-form/customization-form-overview) to manage the Pivot Grid control's layout.
 
-## Files to Look At
+## Files to Review
 
 - [MainWindow.xaml.cs](./CS/WpfOlapRetrieveFieldsExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfOlapRetrieveFieldsExample/MainWindow.xaml.vb))
 
