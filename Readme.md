@@ -38,7 +38,7 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
    ```
 
 
-1. Create fields for all the measures and dimension in the bound OLAP cube, and move these fields to the specified area to make them hidden. To do it, use the [PivotGridControl.RetrieveFields](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.RetrieveFields.overloads) method overload with the _visible_ parameter and set the field's visibility to `false`. The `RetrieveFields` method generates [DataSourceColumnBinding](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.DataSourceColumnBinding?v=22.1) objects for each Pivot Grid field in OLAP, Server, and Optimized [modes](https://docs.devexpress.com/CoreLibraries/403802/devexpress-pivot-grid-core-library/pivot-grid-modes?v=22.1).
+1. Create fields for all the measures and dimension in the bound OLAP cube, and move these fields to the specified area to make them hidden. To do it, use the [PivotGridControl.RetrieveFields](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.PivotGridControl.RetrieveFields.overloads) method overload with the _visible_ parameter and set the field's visibility to `false`. The `RetrieveFields` method generates [DataSourceColumnBinding](https://docs.devexpress.com/WPF/DevExpress.Xpf.PivotGrid.DataSourceColumnBinding) objects for each Pivot Grid field in OLAP, Server, and Optimized [modes](https://docs.devexpress.com/CoreLibraries/403802/devexpress-pivot-grid-core-library/pivot-grid-modes).
 
 
    ```cs
@@ -76,9 +76,9 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
 
 ## Documentation
 
-- [Pivot Grid Data Processing Modes](https://docs.devexpress.com/CoreLibraries/403802/devexpress-pivot-grid-core-library/pivot-grid-modes?v=22.1)
+- [Pivot Grid Data Processing Modes](https://docs.devexpress.com/CoreLibraries/403802/devexpress-pivot-grid-core-library/pivot-grid-modes)
 - [Bind a Pivot Grid Control to an OLAP Data Source](https://docs.devexpress.com/WPF/8015/controls-and-libraries/pivot-grid/binding-to-data/olap-data-source/binding-to-olap-data-sources)
-- [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.com/WPF/8025/controls-and-libraries/pivot-grid/binding-to-data/unbound-fields?v=22.1) 
+- [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.com/WPF/8025/controls-and-libraries/pivot-grid/binding-to-data/unbound-fields) 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
@@ -86,3 +86,4 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
