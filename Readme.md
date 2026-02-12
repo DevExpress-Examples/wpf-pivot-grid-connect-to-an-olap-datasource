@@ -80,7 +80,7 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
 - [Bind a Pivot Grid Control to an OLAP Data Source](https://docs.devexpress.com/WPF/8015/controls-and-libraries/pivot-grid/binding-to-data/olap-data-source/binding-to-olap-data-sources)
 - [Bind Pivot Grid Fields to Calculated Expressions](https://docs.devexpress.com/WPF/8025/controls-and-libraries/pivot-grid/binding-to-data/unbound-fields) 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-pivot-grid-connect-to-an-olap-datasource&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-pivot-grid-connect-to-an-olap-datasource&~~~was_helpful=no)
 
