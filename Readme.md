@@ -20,7 +20,7 @@ To bind the Pivot Grid control to an OLAP cube, follow the steps below.
         <dx:PivotOlapDataSource x:Key="PivotOlapDataSource" Cube="Adventure Works" 
                                 Catalog="Adventure Works DW Standard Edition" ConnectionTimeout="60" 
                                 LocaleIdentifier="1033" Password="{x:Null}" Provider="MSOLAP" 
-                                QueryTimeout="30" Server="http://demos.devexpress.com/Services/OLAP/msmdpump.dll" 
+                                QueryTimeout="30" Server="https://demos.devexpress.com/Services/OLAP/msmdpump.dll" 
                                 UserId="{x:Null}">
         </dx:PivotOlapDataSource>
     </Window.Resources>
